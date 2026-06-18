@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Model files
+*.pt
+*.pth
+*.tar
+*.ckpt
+
+# Training checkpoints
+ckpt/
+checkpoint/
+checkpoints/
+
+# Dataset
+data/
+dataset/
+datasets/
+
+# Audio files
+*.wav
+*.flac
+*.mp3
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+loss_vs_epoch.png
