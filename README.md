@@ -529,7 +529,7 @@ augmentations = [
 ]
 ```
 
-##10. loss vs epoch
+## 10. loss vs epoch
 
 
 
