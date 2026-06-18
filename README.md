@@ -26,7 +26,7 @@
 
 ---
 
-## 3️ 詳細專案結構
+## 3️.詳細專案結構
 
 ```
 denoiser-main/
@@ -99,13 +99,13 @@ denoiser-main/
 │       ├── best_model.pth          # 最佳模型權重
 │       └── last_checkpoint.pth     # 最新檢查點
 │
-└── 📄 documentation
+└──  documentation
     └── README.md                   # 本檔案
 ```
 
 ---
 
-## 4️ 詳細環境要求
+## 4️.詳細環境要求
 
 ### 最低要求
 
@@ -140,7 +140,7 @@ tensorboard>=2.3         # 訓練監控（選用）
 
 ---
 
-## 5️ 詳細安裝步驟
+## 5️.詳細安裝步驟
 
 ### 步驟 1: 環境準備
 
@@ -220,9 +220,9 @@ python -c "import numpy, scipy, matplotlib; print('All packages OK')"
 
 ---
 
-## 6️ 快速開始指南
+## 6️.快速開始指南
 
-### 方式 1: 使用 Shell 腳本（推薦新手）
+### 方式 1: 使用 Shell 腳本
 
 ```bash
 # 確保腳本有執行權限
@@ -274,7 +274,7 @@ trainer.save_checkpoint('my_model.pth')
 
 ---
 
-## 7️ 詳細配置說明
+## 7️.詳細配置說明
 
 編輯 `conf.py` 檔案以自定義訓練參數：
 
@@ -346,7 +346,7 @@ pin_memory = True                    # GPU 記憶體鎖定
 
 ---
 
-## 8️ 模型說明
+## 8️.模型說明
 
 ### Model 架構詳解
 
@@ -407,7 +407,7 @@ param(nnet)  # 返回模型參數數量（百萬）
 
 ---
 
-## 9️ 深入訓練指南
+## 9️.深入訓練指南
 
 ### 準備階段
 
