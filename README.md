@@ -531,6 +531,7 @@ augmentations = [
 
 ## 10. loss vs epoch
 
+<img width="1082" height="642" alt="image" src="https://github.com/user-attachments/assets/d59cc047-0064-4913-92f7-2c328d9cc12e" />
 
 
 ---
